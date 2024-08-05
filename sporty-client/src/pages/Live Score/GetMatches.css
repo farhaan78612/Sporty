@@ -1,0 +1,94 @@
+.sporty__headerNavbar  {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 2px solid black;  */
+    /* Added by Ansuman Das 2361020322 */
+    height: 4.5rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.sporty__headerSelect{
+    align-items: center;
+    width: 35%;
+    margin-left: 2%;
+}
+
+.sporty__headerSelect h5{
+    margin-left: 3%;
+    font-family: "NavBarFont";
+    margin-bottom: 0;
+}
+
+
+.sporty__headerSelect h5:hover {
+    color: blue;
+    transition: 1s ease-in;
+}
+
+.sporty__headerSearchIcon {   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 7px;
+    align-items: center;
+    background-color: #08423594;
+    border-radius: 5px;
+    color: white;
+    width: 99%;
+    margin: 10px 10px;
+
+}
+.sporty__headerSearchIcon>input{
+    width: 90%;
+}
+
+
+.sporty__headerSearchIcon>input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.sporty__headerSearchIcon>input::placeholder {
+    color: white;
+}
+
+.sporty__matchStrip {
+    margin-top: 25px;
+    
+}
+.sporty__matchStrip  h2{
+    color: white;
+    font-family: "BrandNameFont";
+}
+/* Added by Ansuman Das 2361020322 */
+
+#live-score{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#love-score-loading{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 91.5vh;
+    justify-content: space-evenly;
+}
+
+.listMaches{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

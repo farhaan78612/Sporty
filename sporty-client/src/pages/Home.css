@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#bg-home{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 65px;
+    height:100vh;
+    width: 100%;
+    background: url("../../public/image/bg-image-5.jpg");
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+/* #viratkholi{
+    position:fixed;
+    bottom :0;
+    margin-left: 65%;
+}
+
+@media only screen and (max-width:1015px){
+    #viratkholi{
+        position: relative;
+        left: 6%;
+    }
+} */
+

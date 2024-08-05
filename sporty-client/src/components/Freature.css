@@ -1,0 +1,79 @@
+.home-content{
+    background-color: #003200;
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    overflow: hidden;
+    grid-gap: 15px 15px;
+    overflow: hidden;
+}
+
+.content-card{
+    color: white;
+}
+
+.content-card :hover {
+    border: 2px solid white;
+    box-shadow: 0 5px 5px rgb(255,255,255,0.5);
+    transition: 0.6s ease;
+    .shade {
+        background: none;
+    }
+    .shade h1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .home-content{
+        display: grid;
+        height: 1200px;
+        grid-template-rows: repeat(6,1fr);
+        grid-template-columns: repeat(1,1fr);
+        overflow: hidden;
+        grid-gap: 0 2px;
+    }
+}
+.card-bgimg{
+    border-radius: 1.562rem;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+#content-card-1{
+    background: url(../../public/image/cricket.jpg);
+    background-size: cover;
+}
+#content-card-2{
+    background: url(../../public/image/football.jpeg);
+    background-size: cover;
+}
+#content-card-3{
+    background: url(../../public/image/hockey.jpg);
+    background-size: cover;
+}
+#content-card-4{
+    background: url(../../public/image/olympics.jpg);
+    background-size: cover;
+}
+#content-card-5{
+    background: url(../../public/image/baseball.jpg);
+    background-size: cover;
+}
+#content-card-6{
+    background: url(../../public/image/othersports.jpg);
+    background-size: cover;
+}
+.shade {
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.shade h1{
+    font-family: "BrandNAmeFont";
+    font-size: 4em;
+}

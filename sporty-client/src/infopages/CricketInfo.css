@@ -1,0 +1,44 @@
+
+
+.cricket-info {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 65px auto auto auto;
+    
+}
+.content{
+    transition: 0.3s;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.cricket-info h1 {
+    text-align: center;
+    color: #233344;
+    margin-bottom: 20px;
+}
+
+.cricket-info section {
+    margin: 20px 0;
+}
+
+.cricket-info h2, .cricket-info h3 {
+    color: #216fa3;
+}
+
+.cricket-info p, .cricket-info ul {
+    color: #34495e;
+    line-height: 1.6;
+}
+
+.cricket-info ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.cricket-info article {
+    margin: 10px 0;
+}

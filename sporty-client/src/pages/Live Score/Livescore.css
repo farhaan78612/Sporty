@@ -1,0 +1,18 @@
+#livescore-bg {
+    margin-top: 65px;
+    height:auto;
+    width: 100%;
+    background:url(../../../public/image/live-score.jpg);
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    /* Extras */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#livescore-bg h1{
+    color: white;
+    font-family: "BrandNAmeFont";
+}

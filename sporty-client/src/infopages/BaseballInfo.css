@@ -1,0 +1,23 @@
+.BaseballInfo {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 65px auto auto auto;
+  }
+  
+  .content-Baseball{
+    transition: 0.3s;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 20px;
+  }
+  
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+  }
+  

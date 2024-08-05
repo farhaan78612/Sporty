@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#bg-about{
+    margin-top: 70px;
+    height:auto;
+    width: 100%;
+    background: url("../../public/image/bg-image-3.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+}
+
+@font-face {
+    font-family: "BrandNAmeFont";
+    src: url(../../public/fonts/InknutAntiqua-Bold.ttf);
+}
+@font-face {
+    font-family: "NavBarFont";
+    src: url(../../public/fonts/Inter-SemiBold.ttf);
+}
+
+#about-card{
+    margin-top: 4.125rem;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+.card-text {
+    font-size: 1.3em;
+    font-family: "NavBarFont";
+    font-weight: 200;
+}
+
+#about-text span{
+    font-family: "BrandNAmeFont";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+/* Develepors Section */
+
+#developers{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3.215rem;
+    color: white;
+}
+
+#card{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom:1.563rem ;
+    height :6.25em;
+    width:500px;
+    border-radius: 3.215rem;
+    background-color: #5c1010;
+}
+
+.card-item{
+    border-radius: 3.125rem;
+    height: 6.25em;
+    width: 6.25em;
+}
+
+#Ansuman{
+    background:url(../../public/image/AnsumanDasPhoto.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+}
+#Farhaan{
+    background:url(../../public/image/farhaan.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#Manoranjan{
+    background:url(../../public/image/manua.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#Shakti{
+    background:url(../../public/image/shaktisagar.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width :535px){
+    #card{
+        margin-bottom:1.563rem ;
+        height :6.25em;
+        width:90%;
+        border-radius: 3.215rem;
+        background-color: red;
+    }
+
+}
+
+#Highlight-developers{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer{
+    height: 100px;
+    width: 100%;
+}
+
+/* Customizable About */
+#CricketInfo{
+    background: url(../../public/image/CricketInfo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#FootballInfo{
+    background: url(../../public/image/football.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+}
+
+#HockeyInfo{
+    background: url(../../public/image/hockey-info.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#OlympicsInfo{
+    background: url(../../public/image/hockey-info.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
+#OlympicsInfo{
+    background: url(../../public/image/olympics-info.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top; 
+}
+
+#BaseballInfo{
+    background: url(../../public/image/baseball-info.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;  
+}
+
+/* New  */

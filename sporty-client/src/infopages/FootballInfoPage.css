@@ -1,0 +1,45 @@
+/* src/FootballInfoPage.css */
+
+.football-info-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 65px auto auto auto;
+  }
+  
+  .section {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .introduction,
+  .history,
+  .rules,
+  .tournaments,
+  .notable-players {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+.content-football{
+  margin: 65px;
+  transition: 0.3s;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 20px;
+
+
+  }
+  

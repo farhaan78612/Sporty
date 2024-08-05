@@ -1,0 +1,13 @@
+.typewriter{
+    color: white;
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width:950px){
+    .typewriter h1{
+        font-size: 1.5em;
+    }
+}
